@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=12.16.1"
+  },
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/joelfsreis/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/joelfsreis/react-boilerplate#readme"
+  "homepage": "https://github.com/joelfsreis/react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
 }
